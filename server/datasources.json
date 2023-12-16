@@ -1,1 +1,8 @@
-{}
+{
+  "mysqIDS": {
+    "name": "mysqIDS",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  }
+}

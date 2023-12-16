@@ -15,12 +15,10 @@
       "required": true
     },
     "status": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "dueDate": {
-      "type": "date",
-      "required": true
+      "type": "date"
     }
   },
   "validations": [],

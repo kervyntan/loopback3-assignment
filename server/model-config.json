@@ -13,12 +13,8 @@
       "./mixins"
     ]
   },
-  "Tasks": {
-    "dataSource": null,
-    "public": true
-  },
   "Task": {
-    "dataSource": null,
+    "dataSource": "mysqIDS",
     "public": true
   }
 }
