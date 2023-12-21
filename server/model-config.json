@@ -14,7 +14,7 @@
     ]
   },
   "Task": {
-    "dataSource": "mysqIDS",
+    "dataSource": "pgsql",
     "public": true
   }
 }

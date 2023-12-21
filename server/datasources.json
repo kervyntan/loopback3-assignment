@@ -4,5 +4,16 @@
     "localStorage": "",
     "file": "",
     "connector": "memory"
+  },
+  "pgsql": {
+    "host": "ec2-34-228-248-175.compute-1.amazonaws.com",
+    "port": 5432,
+    "url": "postgres://birezmkbscxtrw:329a341462142bd392ea08fa9b037f8adab103f5c3d873390c3a3bf216efa11a@ec2-34-228-248-175.compute-1.amazonaws.com:5432/d6d4clv88e1m9q",
+    "database": "d6d4clv88e1m9q",
+    "password": "329a341462142bd392ea08fa9b037f8adab103f5c3d873390c3a3bf216efa11a",
+    "name": "pgsql",
+    "user": "birezmkbscxtrw",
+    "connector": "postgresql",
+    "ssl": { "rejectUnauthorized" : false }
   }
 }

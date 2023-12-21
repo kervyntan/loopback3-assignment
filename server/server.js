@@ -7,8 +7,27 @@
 
 const loopback = require('loopback');
 const boot = require('loopback-boot');
-
+const {Client} = require('pg');
 const app = module.exports = loopback();
+
+// const client = new Client({
+//   connectionString: 'postgres://birezmkbscxtrw:329a341462142bd392ea08fa9b037f8adab103f5c3d873390c3a3bf216efa11a@ec2-34-228-248-175.compute-1.amazonaws.com:5432/d6d4clv88e1m9q',
+//   ssl: {
+//     rejectUnauthorized: false,
+//   },
+// });
+
+// client.connect();
+
+// client.query('CREATE TABLE Task;', (err, res) => {
+//   // if (err) {
+//   //   console.error(err);
+//   // }
+//   // for (let row of res.rows) {
+//   //   console.log(JSON.stringify(row));
+//   // }
+//   client.end();
+// });
 
 app.start = function() {
   // start the web server
